@@ -16,7 +16,7 @@ Supported Serialization formats are:
 
 To install:
 
-    go get github.com/ugorji/go/codec
+    go get github.com/cgrates/ugocodec/codec
 
 This package will carefully use 'unsafe' for performance reasons in specific places.
 You can build without unsafe use by passing the safe or appengine tag
@@ -200,7 +200,7 @@ You can run the tag 'safe' to run tests or build in safe mode. e.g.
 
 Running Benchmarks
 
-Please see http://github.com/ugorji/go-codec-bench .
+Please see http://github.com/cgrates/ugocodec-codec-bench .
 
 */
 package codec

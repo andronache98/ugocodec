@@ -13,7 +13,7 @@ Supported Serialization formats are:
 
 To install:
 
-    go get github.com/ugorji/go/codec
+    go get github.com/cgrates/ugocodec/codec
 
 This package will carefully use 'unsafe' for performance reasons in specific places.
 You can build without unsafe use by passing the safe or appengine tag
@@ -21,7 +21,7 @@ i.e. 'go install -tags=safe ...'. Note that unsafe is only supported for the las
 go sdk versions e.g. current go release is go 1.9, so we support unsafe use only from
 go 1.7+ . This is because supporting unsafe requires knowledge of implementation details.
 
-Online documentation: http://godoc.org/github.com/ugorji/go/codec  
+Online documentation: http://godoc.org/github.com/cgrates/ugocodec/codec  
 Detailed Usage/How-to Primer: http://ugorji.net/blog/go-codec-primer
 
 The idiomatic Go support is as seen in other encoding packages in
@@ -183,5 +183,5 @@ You can run the tag 'safe' to run tests or build in safe mode. e.g.
 
 ## Running Benchmarks
 
-Please see http://github.com/ugorji/go-codec-bench .
+Please see http://github.com/cgrates/ugocodec-codec-bench .
 

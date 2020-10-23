@@ -4,10 +4,10 @@
 
 To install:
 
-    go get github.com/ugorji/go/codec
+    go get github.com/cgrates/ugocodec/codec
 
-Source: [http://github.com/ugorji/go]  
-Online documentation: [http://godoc.org/github.com/ugorji/go/codec]  
+Source: [http://github.com/cgrates/ugocodec]  
+Online documentation: [http://godoc.org/github.com/cgrates/ugocodec/codec]  
 
 Typical usage:
 
